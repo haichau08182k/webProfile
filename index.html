@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/assets/images/code1.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li ><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SKILL</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-ellipsis-h" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="banner">
+            <div class="app-text">
+                <h1>I'm <span>Hai</span> <br/>a .Net Interns</h1>
+                <p>
+                    Với kiến thức chuyên môn đã được học, tôi mong muốn<br/> tìm được công việc phù hợp đó là vị trí nhân viên IT để<br> có thể vận dụng và phát huy tốt khả năng của mình.<br>
+                    Những kinh nghiệm làm việc thực tế mà tôi tích lũy được<br/> sẽ là cơ sở để đạt được mục tiêu trở thành một<br/> Technology Leaders trong tương lai.
+                </p>
+                <div class="play-btn">
+                    <div class="play-btn-inner">
+                        <i class="fa">Lean more</i>
+                    </div>
+                </div>
+            </div>
+            <div class="app-picture">
+                <img src="/assets/images/Wavy_Tech-2.png">
+            </div>
+        </div>
+    </section>
+    <!--About-->
+    <section class="about">
+        <h1>About us</h1>
+        <p>asfasdfsdaaaaaaaaaaaaaadfasdfasd sad fsafasf  sadfasf</p>
+
+    </section>
+    <!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks=document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
